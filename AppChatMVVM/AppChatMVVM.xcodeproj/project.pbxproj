@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CCC31F82F5235A00035C072 /* FirebaseAI in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC31F72F5235A00035C072 /* FirebaseAI */; };
+		8CCC31FA2F5235A00035C072 /* FirebaseAILogic in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC31F92F5235A00035C072 /* FirebaseAILogic */; };
+		8CCC31FC2F5235A00035C072 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC31FB2F5235A00035C072 /* FirebaseAnalytics */; };
+		8CCC31FE2F5235A00035C072 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC31FD2F5235A00035C072 /* FirebaseAnalyticsCore */; };
+		8CCC32002F5235A00035C072 /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC31FF2F5235A00035C072 /* FirebaseAnalyticsIdentitySupport */; };
+		8CCC32022F5235A00035C072 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC32012F5235A00035C072 /* FirebaseAuth */; };
+		8CCC32042F5235A00035C072 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC32032F5235A00035C072 /* FirebaseCore */; };
+		8CCC32062F5235A00035C072 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC32052F5235A00035C072 /* FirebaseCrashlytics */; };
+		8CCC32082F5235A00035C072 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC32072F5235A00035C072 /* FirebaseDatabase */; };
+		8CCC320A2F5235A00035C072 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC32092F5235A00035C072 /* FirebaseFirestore */; };
+		8CCC320C2F5235A00035C072 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC320B2F5235A00035C072 /* FirebaseMessaging */; };
+		8CCC320E2F5235A00035C072 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC320D2F5235A00035C072 /* FirebaseStorage */; };
+		8CCC32182F5244850035C072 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC32172F5244850035C072 /* RealmSwift */; };
+		8CCC321B2F52450C0035C072 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC321A2F52450C0035C072 /* ProgressHUD */; };
+		8CCC321E2F5245710035C072 /* SKPhotoBrowser in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC321D2F5245710035C072 /* SKPhotoBrowser */; };
+		8CCC32212F5246D40035C072 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC32202F5246D40035C072 /* MessageKit */; };
+		8CCC32242F5246EF0035C072 /* InputBarAccessoryView in Frameworks */ = {isa = PBXBuildFile; productRef = 8CCC32232F5246EF0035C072 /* InputBarAccessoryView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CCC31D22F5232100035C072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CCC31B02F52320E0035C072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CCC31B72F52320E0035C072;
+			remoteInfo = AppChatMVVM;
+		};
+		8CCC31DC2F5232100035C072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CCC31B02F52320E0035C072 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CCC31B72F52320E0035C072;
+			remoteInfo = AppChatMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CCC31B82F52320E0035C072 /* AppChatMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppChatMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCC31D12F5232100035C072 /* AppChatMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppChatMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCC31DB2F5232100035C072 /* AppChatMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppChatMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8CCC31E32F5232110035C072 /* Exceptions for "AppChatMVVM" folder in "AppChatMVVM" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8CCC31B72F52320E0035C072 /* AppChatMVVM */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8CCC31BA2F52320E0035C072 /* AppChatMVVM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8CCC31E32F5232110035C072 /* Exceptions for "AppChatMVVM" folder in "AppChatMVVM" target */,
+			);
+			path = AppChatMVVM;
+			sourceTree = "<group>";
+		};
+		8CCC31D42F5232100035C072 /* AppChatMVVMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppChatMVVMTests;
+			sourceTree = "<group>";
+		};
+		8CCC31DE2F5232100035C072 /* AppChatMVVMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppChatMVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CCC31B52F52320E0035C072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CCC31FA2F5235A00035C072 /* FirebaseAILogic in Frameworks */,
+				8CCC32242F5246EF0035C072 /* InputBarAccessoryView in Frameworks */,
+				8CCC321B2F52450C0035C072 /* ProgressHUD in Frameworks */,
+				8CCC32022F5235A00035C072 /* FirebaseAuth in Frameworks */,
+				8CCC32002F5235A00035C072 /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				8CCC32182F5244850035C072 /* RealmSwift in Frameworks */,
+				8CCC320A2F5235A00035C072 /* FirebaseFirestore in Frameworks */,
+				8CCC31F82F5235A00035C072 /* FirebaseAI in Frameworks */,
+				8CCC32212F5246D40035C072 /* MessageKit in Frameworks */,
+				8CCC320E2F5235A00035C072 /* FirebaseStorage in Frameworks */,
+				8CCC32042F5235A00035C072 /* FirebaseCore in Frameworks */,
+				8CCC32062F5235A00035C072 /* FirebaseCrashlytics in Frameworks */,
+				8CCC321E2F5245710035C072 /* SKPhotoBrowser in Frameworks */,
+				8CCC32082F5235A00035C072 /* FirebaseDatabase in Frameworks */,
+				8CCC31FC2F5235A00035C072 /* FirebaseAnalytics in Frameworks */,
+				8CCC320C2F5235A00035C072 /* FirebaseMessaging in Frameworks */,
+				8CCC31FE2F5235A00035C072 /* FirebaseAnalyticsCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCC31CE2F5232100035C072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCC31D82F5232100035C072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CCC31AF2F52320E0035C072 = {
+			isa = PBXGroup;
+			children = (
+				8CCC31BA2F52320E0035C072 /* AppChatMVVM */,
+				8CCC31D42F5232100035C072 /* AppChatMVVMTests */,
+				8CCC31DE2F5232100035C072 /* AppChatMVVMUITests */,
+				8CCC31B92F52320E0035C072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CCC31B92F52320E0035C072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CCC31B82F52320E0035C072 /* AppChatMVVM.app */,
+				8CCC31D12F5232100035C072 /* AppChatMVVMTests.xctest */,
+				8CCC31DB2F5232100035C072 /* AppChatMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CCC31B72F52320E0035C072 /* AppChatMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCC31E42F5232110035C072 /* Build configuration list for PBXNativeTarget "AppChatMVVM" */;
+			buildPhases = (
+				8CCC31B42F52320E0035C072 /* Sources */,
+				8CCC31B52F52320E0035C072 /* Frameworks */,
+				8CCC31B62F52320E0035C072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8CCC31BA2F52320E0035C072 /* AppChatMVVM */,
+			);
+			name = AppChatMVVM;
+			packageProductDependencies = (
+				8CCC31F72F5235A00035C072 /* FirebaseAI */,
+				8CCC31F92F5235A00035C072 /* FirebaseAILogic */,
+				8CCC31FB2F5235A00035C072 /* FirebaseAnalytics */,
+				8CCC31FD2F5235A00035C072 /* FirebaseAnalyticsCore */,
+				8CCC31FF2F5235A00035C072 /* FirebaseAnalyticsIdentitySupport */,
+				8CCC32012F5235A00035C072 /* FirebaseAuth */,
+				8CCC32032F5235A00035C072 /* FirebaseCore */,
+				8CCC32052F5235A00035C072 /* FirebaseCrashlytics */,
+				8CCC32072F5235A00035C072 /* FirebaseDatabase */,
+				8CCC32092F5235A00035C072 /* FirebaseFirestore */,
+				8CCC320B2F5235A00035C072 /* FirebaseMessaging */,
+				8CCC320D2F5235A00035C072 /* FirebaseStorage */,
+				8CCC32172F5244850035C072 /* RealmSwift */,
+				8CCC321A2F52450C0035C072 /* ProgressHUD */,
+				8CCC321D2F5245710035C072 /* SKPhotoBrowser */,
+				8CCC32202F5246D40035C072 /* MessageKit */,
+				8CCC32232F5246EF0035C072 /* InputBarAccessoryView */,
+			);
+			productName = AppChatMVVM;
+			productReference = 8CCC31B82F52320E0035C072 /* AppChatMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CCC31D02F5232100035C072 /* AppChatMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCC31E92F5232110035C072 /* Build configuration list for PBXNativeTarget "AppChatMVVMTests" */;
+			buildPhases = (
+				8CCC31CD2F5232100035C072 /* Sources */,
+				8CCC31CE2F5232100035C072 /* Frameworks */,
+				8CCC31CF2F5232100035C072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CCC31D32F5232100035C072 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8CCC31D42F5232100035C072 /* AppChatMVVMTests */,
+			);
+			name = AppChatMVVMTests;
+			packageProductDependencies = (
+			);
+			productName = AppChatMVVMTests;
+			productReference = 8CCC31D12F5232100035C072 /* AppChatMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CCC31DA2F5232100035C072 /* AppChatMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCC31EC2F5232110035C072 /* Build configuration list for PBXNativeTarget "AppChatMVVMUITests" */;
+			buildPhases = (
+				8CCC31D72F5232100035C072 /* Sources */,
+				8CCC31D82F5232100035C072 /* Frameworks */,
+				8CCC31D92F5232100035C072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CCC31DD2F5232100035C072 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8CCC31DE2F5232100035C072 /* AppChatMVVMUITests */,
+			);
+			name = AppChatMVVMUITests;
+			packageProductDependencies = (
+			);
+			productName = AppChatMVVMUITests;
+			productReference = 8CCC31DB2F5232100035C072 /* AppChatMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CCC31B02F52320E0035C072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					8CCC31B72F52320E0035C072 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					8CCC31D02F5232100035C072 = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 8CCC31B72F52320E0035C072;
+					};
+					8CCC31DA2F5232100035C072 = {
+						CreatedOnToolsVersion = 26.1;
+						TestTargetID = 8CCC31B72F52320E0035C072;
+					};
+				};
+			};
+			buildConfigurationList = 8CCC31B32F52320E0035C072 /* Build configuration list for PBXProject "AppChatMVVM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CCC31AF2F52320E0035C072;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				8CCC32162F5244850035C072 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				8CCC32192F52450C0035C072 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+				8CCC321C2F5245710035C072 /* XCRemoteSwiftPackageReference "SKPhotoBrowser" */,
+				8CCC321F2F5246D40035C072 /* XCRemoteSwiftPackageReference "MessageKit" */,
+				8CCC32222F5246EF0035C072 /* XCRemoteSwiftPackageReference "InputBarAccessoryView" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8CCC31B92F52320E0035C072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CCC31B72F52320E0035C072 /* AppChatMVVM */,
+				8CCC31D02F5232100035C072 /* AppChatMVVMTests */,
+				8CCC31DA2F5232100035C072 /* AppChatMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CCC31B62F52320E0035C072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCC31CF2F5232100035C072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCC31D92F5232100035C072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CCC31B42F52320E0035C072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCC31CD2F5232100035C072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCC31D72F5232100035C072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CCC31D32F5232100035C072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CCC31B72F52320E0035C072 /* AppChatMVVM */;
+			targetProxy = 8CCC31D22F5232100035C072 /* PBXContainerItemProxy */;
+		};
+		8CCC31DD2F5232100035C072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CCC31B72F52320E0035C072 /* AppChatMVVM */;
+			targetProxy = 8CCC31DC2F5232100035C072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8CCC31E52F5232110035C072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppChatMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatMVVM.JAFG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CCC31E62F5232110035C072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppChatMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatMVVM.JAFG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CCC31E72F5232110035C072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CCC31E82F5232110035C072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CCC31EA2F5232110035C072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatMVVM.JAFG.AppChatMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppChatMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppChatMVVM";
+			};
+			name = Debug;
+		};
+		8CCC31EB2F5232110035C072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatMVVM.JAFG.AppChatMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppChatMVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppChatMVVM";
+			};
+			name = Release;
+		};
+		8CCC31ED2F5232110035C072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatMVVM.JAFG.AppChatMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppChatMVVM;
+			};
+			name = Debug;
+		};
+		8CCC31EE2F5232110035C072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatMVVM.JAFG.AppChatMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppChatMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CCC31B32F52320E0035C072 /* Build configuration list for PBXProject "AppChatMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCC31E72F5232110035C072 /* Debug */,
+				8CCC31E82F5232110035C072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCC31E42F5232110035C072 /* Build configuration list for PBXNativeTarget "AppChatMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCC31E52F5232110035C072 /* Debug */,
+				8CCC31E62F5232110035C072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCC31E92F5232110035C072 /* Build configuration list for PBXNativeTarget "AppChatMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCC31EA2F5232110035C072 /* Debug */,
+				8CCC31EB2F5232110035C072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCC31EC2F5232110035C072 /* Build configuration list for PBXNativeTarget "AppChatMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CCC31ED2F5232110035C072 /* Debug */,
+				8CCC31EE2F5232110035C072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.10.0;
+			};
+		};
+		8CCC32162F5244850035C072 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = community;
+				kind = branch;
+			};
+		};
+		8CCC32192F52450C0035C072 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+		8CCC321C2F5245710035C072 /* XCRemoteSwiftPackageReference "SKPhotoBrowser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/suzuki-0000/SKPhotoBrowser";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.1;
+			};
+		};
+		8CCC321F2F5246D40035C072 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8CCC32222F5246EF0035C072 /* XCRemoteSwiftPackageReference "InputBarAccessoryView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nathantannar4/InputBarAccessoryView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CCC31F72F5235A00035C072 /* FirebaseAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAI;
+		};
+		8CCC31F92F5235A00035C072 /* FirebaseAILogic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAILogic;
+		};
+		8CCC31FB2F5235A00035C072 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		8CCC31FD2F5235A00035C072 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		8CCC31FF2F5235A00035C072 /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		8CCC32012F5235A00035C072 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8CCC32032F5235A00035C072 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		8CCC32052F5235A00035C072 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		8CCC32072F5235A00035C072 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		8CCC32092F5235A00035C072 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8CCC320B2F5235A00035C072 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8CCC320D2F5235A00035C072 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC31F62F5235A00035C072 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		8CCC32172F5244850035C072 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC32162F5244850035C072 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		8CCC321A2F52450C0035C072 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC32192F52450C0035C072 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+		8CCC321D2F5245710035C072 /* SKPhotoBrowser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC321C2F5245710035C072 /* XCRemoteSwiftPackageReference "SKPhotoBrowser" */;
+			productName = SKPhotoBrowser;
+		};
+		8CCC32202F5246D40035C072 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC321F2F5246D40035C072 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+		8CCC32232F5246EF0035C072 /* InputBarAccessoryView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CCC32222F5246EF0035C072 /* XCRemoteSwiftPackageReference "InputBarAccessoryView" */;
+			productName = InputBarAccessoryView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8CCC31B02F52320E0035C072 /* Project object */;
+}
